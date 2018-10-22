@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<title>Main</title>
+</head>
+<body>
+
+
+	<!-- навигационная панель с поиском и ссылками -->
+
+<header> 
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand{-sm|-md|-lg|-xl}">
+ <a class="navbar-brand" href="main.html">
+   <img src="img/logo.jpg">
+ </a>
+		<div class="nav nav-main">
+			<a href="sort.html">Каталог</a> 
+			<a href="single.html">Описание</a>
+		</div>
+<form class="form-inline pull-xs-left">
+    <input class="form-control" type="text" placeholder="Поиск">
+    <button class="btn btn-outline-success" type="submit">Начать </button>
+</form>
+	<ul class="nav navbar-nav pull-xs-right"> 
+		<li><a href="main.html">Главная</a></li>
+    <li><a href="trash.html">
+      Корзина
+    </a></li> 
+	</ul> 
+	
+	</nav> 
+	</header>
+	<!-- главный текст -->
+<div class="animate_title">
+	<div class="unbreakable_container">  
+		<div class="unbreakable">
+			<span class="alter">Aternater</span>
+			<div class="starter">Starter</div>
+		</div>
+	</div>
+</div>
+<!-- карусель -->
+<div class="container"> 
+	<div class="row"> 
+		<div class="col-md-12"> 
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-400" src="img/Bosch.jpg" alt="First">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-400" src="img/Valeo.jpg" alt="second">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-400" src="img/altbosch.jpg" alt="third">
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#carousel" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				</a>
+
+				<a class="carousel-control-next" href="#carousel" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				</a>
+			</div>
+		</div> 
+	</div> 
+</div> 
+<!-- Текст в двух колонках -->
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-md-6">Струна, пистолеты и снайперскай винтовка - все это в прошлом для лысого из Hitman. Сорок седьмой взял перерыв и решил занятся веб-разработкой, где зарабатывать деревяные легче, и не надо пачкать руки. В этом видеокурсе сорок седьмой тихо научит вас всего того, что нужно знать современному веб-разработчику, и вам для этого не нужно будет проходить миссиии по несколько раз. Так как этот курс сворован, мы б на вашем месте, время от времени,</div> 
+			<div class="col-md-6">В этом курсе по основам веб-разработки ты узнаешь обо всем, что нужно для того чтобы верстать сайты быстро и правильно, тоесть так, как это обычно требуют заказчики или фирмы. И о чудо, мы сами не подозревали, но похоже агент codename 47 встроился в studyboom и талкает свои курсы на этой площадке, так что за качетсво не ручаемся.</div> 
+		</div> 
+	</div>
+
+
+<!-- Копирайтер в футере -->
+
+	<footer class="pos-f-b  bg-dark"> 
+			<div class="container"> 
+				<div class="row"> 
+					<div class="col-md-12 text-center text-light"> 	
+				&copy Макеев Петр Николаевич <br>Контакты: +375(25) 941-73-07
+			
+					</div> 
+				</div> 
+			</div> 
+	</footer> 
+
+<!-- JS -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/jtest.js"></script>
+
+</body>
+</html>
