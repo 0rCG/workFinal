@@ -230,6 +230,19 @@ h3 {
 .menu {
   margin-top:10px;
 }
+.dropdown-all div:first-child{
+width: 130px ;
+}
+.dropdown-all, .item {
+  align-items: center;
+  display: flex;
+}
+.item {
+  border-bottom: 1px solid #000;
+}
+.ml-20{
+  margin-left:30px;
+}
 /* главная страница и антимация */
 .unbreakable_container
 {
