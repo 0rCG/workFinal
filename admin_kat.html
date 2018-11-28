@@ -9,50 +9,66 @@
 <body>
 
 	<!-- навигационная панель с поиском и ссылками -->
+
 <header> 
 
 	<nav class="navbar navbar-dark bg-dark navbar-expand{-sm|-md|-lg|-xl}">
- <a class="navbar-brand" href="main.html">
-   <img src="img/logo.jpg">
- </a>
-		<div class="nav nav-main">
-			<a href="sort.html">Каталог</a> 
-			<a href="single.html">Описание</a>
+		<div class="d-flex align-items-center">
+			<a class="navbar-brand" href="main.html">
+				<img src="img/logo.jpg">
+			</a>
+			<div class="nav nav-main">
+				<a href="sort.html">Каталог</a> 
+				<a href="single.html">Описание</a>
+			</div>
 		</div>
 <form class="form-inline pull-xs-left">
     <input class="form-control" type="text" placeholder="Поиск">
     <button class="btn btn-outline-success" type="submit">Начать </button>
 </form>
-	<ul class="nav navbar-nav pull-xs-right"> 
-		<li><a href="main.html">Главная</a></li>
-    <li><a href="trash.html">
-      Корзина
-    </a></li> 
-	</ul> 
+
+		<div class="d-flex align-items-center">
+			<ul class="nav navbar-nav pull-xs-right m-4"> 
+				<li><a href="admin_reg.html">Войти</a></li>
+			</ul> 
+			<ul class="nav navbar-nav pull-xs-right"> 
+				<li><a href="main.html">Главная</a></li>
+		    <li><a href="trash.html">
+		      Корзина
+		    </a></li> 
+			</ul> 
+		</div>
 	
 	</nav> 
-</header>
+	</header>
 
 
 <!-- добавление категории -->
-
-<div class="prod-kat">
-  <div class="kat-add">
-    
-      <label for="chek1"><span>Агрегат:</span><input type="chek1" placeholder="Bosch"/></label>
-
-      <label for="chek2"><span>Производитель:</span><input type="chek2" placeholder="Авто"/></label>
-
-      <label for="chek3"><span>Мощность:</span><input type="chek3" placeholder=" 000"/></label>
-
-      <label for="chek4"><span>Прочее:</span><input type="chek4" placeholder="установка"/></label>
-
-      <label for="chek4"><span>Спецификация:</span><input type="chek4" placeholder="применение"/></label>
-  
-      <a href="#" class="button">Сохранить</a>
-  </div>
-</div>
-
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-md-2 mt-4">
+				<div class="list-group mt-80">
+				  <button type="button" class="list-group-item list-group-item-action"><strong>Категории</strong></button>
+				  <button type="button" class="list-group-item list-group-item-action">Aгрегат</button>
+				  <button type="button"  class="list-group-item list-group-item-action">Производитель</button>
+				  <button type="button"  class="list-group-item list-group-item-action">Мощность</button>
+				  <button type="button"  class="list-group-item list-group-item-action">Прочее</button>
+				</div>
+			</div>
+		<div class="col-md-10 mt-80 ">			
+				<div class="prod-kat">
+					<div class="kat-add">						    
+				      <label for="chek1"><span>Агрегат:</span><input type="chek1" placeholder="Bosch"/></label>
+				      <label for="chek2"><span>Производитель:</span><input type="chek2" placeholder="Авто"/></label>
+				      <label for="chek3"><span>Мощность:</span><input type="chek3" placeholder=" 000"/></label>
+				      <label for="chek4"><span>Прочее:</span><input type="chek4" placeholder="установка"/></label>
+				      <label for="chek4"><span>Спецификация:</span><input type="chek4" placeholder="применение"/></label>
+				      <a href="#" class="button">Сохранить</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 <!-- Копирайтер в футере -->
 
 	<footer class="pos-f-b  bg-dark"> 

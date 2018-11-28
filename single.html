@@ -14,27 +14,34 @@
 <header> 
 
 	<nav class="navbar navbar-dark bg-dark navbar-expand{-sm|-md|-lg|-xl}">
- <a class="navbar-brand" href="main.html">
-   <img src="img/logo.jpg">
- </a>
-		<div class="nav nav-main">
-			<a href="sort.html">Каталог</a> 
-			<a href="single.html">Описание</a>
+		<div class="d-flex align-items-center">
+			<a class="navbar-brand" href="main.html">
+				<img src="img/logo.jpg">
+			</a>
+			<div class="nav nav-main">
+				<a href="sort.html">Каталог</a> 
+				<a href="single.html">Описание</a>
+			</div>
 		</div>
 <form class="form-inline pull-xs-left">
     <input class="form-control" type="text" placeholder="Поиск">
     <button class="btn btn-outline-success" type="submit">Начать </button>
 </form>
-	<ul class="nav navbar-nav pull-xs-right"> 
-		<li><a href="main.html">Главная</a></li>
-    <li><a href="trash.html">
-      Корзина
-    </a></li> 
-	</ul> 
+
+		<div class="d-flex align-items-center">
+			<ul class="nav navbar-nav pull-xs-right m-4"> 
+				<li><a href="admin_reg.html">Войти</a></li>
+			</ul> 
+			<ul class="nav navbar-nav pull-xs-right"> 
+				<li><a href="main.html">Главная</a></li>
+		    <li><a href="trash.html">
+		      Корзина
+		    </a></li> 
+			</ul> 
+		</div>
 	
 	</nav> 
 	</header>
-
 <!-- Текст  -->
 	<div class="container"> 
 		<div class="row"> 
@@ -71,16 +78,18 @@
 						<p>Предназначены для подачи рабочего напряжения на коллекторные пластины якоря. Повышают мощность электродвигателя, при осуществлении основного рабочего цикла стартера.</p>
 					</li>
 				</ul>
-				<div class="imgus">
-					<img src="img/ustroistvo.jpg" alt="" >
+				
+			<div class="imgus">
+					<div class='position-relative img_zoom'>
 
-					<!-- Button to Open the Modal -->
-					<button type="button" class="btn btn-success" data-toggle="modal" data-target="#starterPopup">
-					  Развернуть
-					</button>
+						<img src="img/ustroistvo.jpg" alt="" >
 
+						<!-- Button to Open the Modal -->
+						<button type="button" class="btn btn-success position-absolute" data-toggle="modal" data-target="#starterPopup">
+						  +
+						</button>
+					</div>
 
-				</div>
 				<p>Устройство большинства стартеров аналогично между собой и непременно включает в себя "классические" компоненты приведенные выше. Отличия могут быть лишь незначительные. Чаще всего они затрагивают механизм автоматического рассоединения шестеренок. Помимо этого, на автомобилях с автоматическими трансмиссиями, стартер комплектуется дополнительными удерживающими обмотками. Они предназначены для предотвращения пуска двигателя, если селектор "автомата" установлен в любое ходовое положение (L, 1, 2, 3, D, R).</p>
 			
 				<h3>Принцип работы автомобильного стартера.</h3>

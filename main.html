@@ -15,23 +15,31 @@
 <header> 
 
 	<nav class="navbar navbar-dark bg-dark navbar-expand{-sm|-md|-lg|-xl}">
- <a class="navbar-brand" href="main.html">
-   <img src="img/logo.jpg">
- </a>
-		<div class="nav nav-main">
-			<a href="sort.html">Каталог</a> 
-			<a href="single.html">Описание</a>
+		<div class="d-flex align-items-center">
+			<a class="navbar-brand" href="main.html">
+				<img src="img/logo.jpg">
+			</a>
+			<div class="nav nav-main">
+				<a href="sort.html">Каталог</a> 
+				<a href="single.html">Описание</a>
+			</div>
 		</div>
 <form class="form-inline pull-xs-left">
     <input class="form-control" type="text" placeholder="Поиск">
     <button class="btn btn-outline-success" type="submit">Начать </button>
 </form>
-	<ul class="nav navbar-nav pull-xs-right"> 
-		<li><a href="main.html">Главная</a></li>
-    <li><a href="trash.html">
-      Корзина
-    </a></li> 
-	</ul> 
+
+		<div class="d-flex align-items-center">
+			<ul class="nav navbar-nav pull-xs-right m-4"> 
+				<li><a href="admin_reg.html">Войти</a></li>
+			</ul> 
+			<ul class="nav navbar-nav pull-xs-right"> 
+				<li><a href="main.html">Главная</a></li>
+		    <li><a href="trash.html">
+		      Корзина
+		    </a></li> 
+			</ul> 
+		</div>
 	
 	</nav> 
 	</header>
@@ -47,6 +55,7 @@
 <!-- карусель -->
 <div class="container"> 
 	<div class="row"> 
+
 		<div class="col-md-12"> 
 			<div id="carousel" class="carousel slide" data-ride="carousel">
 
@@ -77,6 +86,7 @@
 				</a>
 			</div>
 		</div> 
+
 	</div> 
 </div> 
 <!-- Текст в двух колонках -->

@@ -14,26 +14,35 @@
 <header> 
 
 	<nav class="navbar navbar-dark bg-dark navbar-expand{-sm|-md|-lg|-xl}">
- <a class="navbar-brand" href="main.html">
-   <img src="img/logo.jpg">
- </a>
-		<div class="nav nav-main">
-			<a href="sort.html">Каталог</a> 
-			<a href="single.html">Описание</a>
+		<div class="d-flex align-items-center">
+			<a class="navbar-brand" href="main.html">
+				<img src="img/logo.jpg">
+			</a>
+			<div class="nav nav-main">
+				<a href="sort.html">Каталог</a> 
+				<a href="single.html">Описание</a>
+			</div>
 		</div>
-<form class="form-inline pull-xs-left">
-    <input class="form-control" type="text" placeholder="Поиск">
-    <button class="btn btn-outline-success" type="submit">Начать </button>
-</form>
-	<ul class="nav navbar-nav pull-xs-right"> 
-		<li><a href="main.html">Главная</a></li>
-    <li><a href="trash.html">
-      Корзина
-    </a></li> 
-	</ul> 
+		<form class="form-inline pull-xs-left">
+		    <input class="form-control" type="text" placeholder="Поиск">
+		    <button class="btn btn-outline-success" type="submit">Начать </button>
+		</form>
+
+		<div class="d-flex align-items-center">
+			<ul class="nav navbar-nav pull-xs-right m-4"> 
+				<li><a href="admin_reg.html">Войти</a></li>
+			</ul> 
+			<ul class="nav navbar-nav pull-xs-right"> 
+				<li><a href="main.html">Главная</a></li>
+		    <li><a href="trash.html">
+		      Корзина
+		    </a></li> 
+			</ul> 
+		</div>
 	
 	</nav> 
-	</header>
+</header>
+	<!-- конртейнер -->
 
 <div class="container menu">
 	<div class="row">
@@ -46,102 +55,104 @@
 			  <button type="button"  class="list-group-item list-group-item-action">Прочее</button>
 			</div>
 		</div>
-	<div class="col-md-9 ml-20">
-		<div class="dropdown-all">
-			<div>Агрегат</div>
-			<div class="dropdown">
-			<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-			Выбор агрегата
-			</button>
-				<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Alternator</a>
-				<a class="dropdown-item" href="#">Starter</a>
-				</div>
-			</div>
+		<div class="col-md-9 ml-20">
+			<div class="dropdown-all">
+				<div>Агрегат</div>
 				<div class="dropdown">
-			<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-			Назначение
-			</button>
-				<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Для Автомобилей</a>
-				<a class="dropdown-item" href="#">Для Мотоциклов</a>
-				<a class="dropdown-item" href="#">Для Грузовых Автомобилей</a>
-				<a class="dropdown-item" href="#">Для С\Х техники</a>
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+				Выбор агрегата
+				</button>
+					<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Alternator</a>
+					<a class="dropdown-item" href="#">Starter</a>
+					</div>
+				</div>
+					<div class="dropdown">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+				Назначение
+				</button>
+					<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Для Автомобилей</a>
+					<a class="dropdown-item" href="#">Для Мотоциклов</a>
+					<a class="dropdown-item" href="#">Для Грузовых Автомобилей</a>
+					<a class="dropdown-item" href="#">Для С\Х техники</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="dropdown-all">
-			<div>Производитель</div>
-			<div class="dropdown">
-			<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-			Страна
-			</button>
-				<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Германия</a>
-				<a class="dropdown-item" href="#">Франция</a>
-				</div>
-			</div>
+			<div class="dropdown-all">
+				<div>Производитель</div>
 				<div class="dropdown">
-			<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-			Фирма
-			</button>
-				<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">Bosch</a>
-				<a class="dropdown-item" href="#">VAleo</a>
-				<a class="dropdown-item" href="#">Nippon</a>
-				<a class="dropdown-item" href="#">Denso</a>
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+				Страна
+				</button>
+					<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Германия</a>
+					<a class="dropdown-item" href="#">Франция</a>
+					</div>
+				</div>
+					<div class="dropdown">
+				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+				Фирма
+				</button>
+					<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Bosch</a>
+					<a class="dropdown-item" href="#">VAleo</a>
+					<a class="dropdown-item" href="#">Nippon</a>
+					<a class="dropdown-item" href="#">Denso</a>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="trash-open">
-			<div class="item">
-				<div class="image">
-		          <img src="img/Bosch.jpg" alt="Bosch" />
-		        </div>
-		        <div class="description">
-		          <span>Starter</span>
-		          <span><i>Bosch</i></span>
-		          <span>CS 612</span>
-		        </div>
-		        <div class="total-price">$54</div>	
-			</div>
-			<div class="item">
-				<div class="image">
-				<img src="img/Valeo.jpg" alt="Valeo"/>
+			<div class="trash-open">
+				<div class="item">
+					<div class="image">
+			          <img src="img/Bosch.jpg" alt="Bosch" />
+			        </div>
+			        <div class="description">
+			          <span>Starter</span>
+			          <span><i>Bosch</i></span>
+			          <span>CS 612</span>
+			        </div>
+			        <div class="total-price">$54</div>	
 				</div>
-				<div class="description">
-				<span>Starter</span>
-				<span><i>Valeo</i></span>
-				<span>CS 566</span>
+				<div class="item">
+					<div class="image">
+					<img src="img/Valeo.jpg" alt="Valeo"/>
+					</div>
+					<div class="description">
+					<span>Starter</span>
+					<span><i>Valeo</i></span>
+					<span>CS 566</span>
+					</div>
+					<div class="total-price">$54</div>	
 				</div>
-				<div class="total-price">$54</div>	
-			</div>
-			<div class="item">
-				<div class="image">
-				<img src="img/altbosch.jpg" alt="altbosch" />
+				<div class="item">
+					<div class="image">
+					<img src="img/altbosch.jpg" alt="altbosch" />
+					</div>
+					<div class="description">
+					<span>Alternator</span>
+					<span><i>Bosch</i></span>
+					<span>JS 657</span>
+					</div>
+					<div class="total-price">$54</div>
 				</div>
-				<div class="description">
-				<span>Alternator</span>
-				<span><i>Bosch</i></span>
-				<span>JS 657</span>
-				</div>
-				<div class="total-price">$54</div>
 			</div>
 		</div>
 	</div>
+</div>
 <!-- Копирайтер в футере -->
 
-	<footer class="pos-f-b  bg-dark"> 
-			<div class="container"> 
-				<div class="row"> 
-					<div class="col-md-12 text-center text-light"> 	
-				&copy Макеев Петр Николаевич <br>Контакты: +375(25) 941-73-07
-			
-					</div> 
+<footer class="pos-f-b  bg-dark"> 
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-md-12 text-center text-light"> 	
+			&copy Макеев Петр Николаевич <br>Контакты: +375(25) 941-73-07
+		
 				</div> 
 			</div> 
-	</footer> 
+		</div> 
+</footer> 
 <!-- JS -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
